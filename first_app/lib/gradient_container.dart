@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'styled_text.dart';
 
-var startAlignment = Alignment.topLeft;
+var startAlignment;
 var endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
@@ -10,7 +10,7 @@ class GradientContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    startAlignment = Alignment.center;
+    startAlignment = Alignment.topLeft;
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
