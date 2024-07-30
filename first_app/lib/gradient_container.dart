@@ -6,7 +6,7 @@ const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key});
+  const GradientContainer(String text, {super.key});
 
   @override
   Widget build(BuildContext context) {
